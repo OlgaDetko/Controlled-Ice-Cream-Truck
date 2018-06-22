@@ -7,7 +7,7 @@ Mobile platform remote controlled via applictaion using Bluetooth/Uart.
 Controllerd Ice Cream is an university project made by Olga Detko and Małgorzata Marczyk - student's at Electric Department 
 of Poznan University of Technology. 
 Remote control the car is possible thanks to the application RoboRemoFree on Android and via Bluetooth connection (USART). 
-There are 4 button responible for direction and 1 using for pretending Ice Cream Truck - evokes colorfull lights and special sound. 
+There are 4 button responible for direction and 1 using for evoke special sound. 
 The power supply of STM32 board and engine is from powerbank. 
 
 ## Tools
@@ -45,9 +45,12 @@ Bluetooth - Discovery:
 - TXD -> PC11
 - RXD -> PC10
 
-RGB Diod - Discovery:
-- R -> PD13
+RGB Diod (1)- Discovery:
 - B -> PD12
+- GND -> GND
+
+RGB Diod (2)- Discovery:
+- B -> PD13
 - GND -> GND
 
 DAC Converter - Discovery:
